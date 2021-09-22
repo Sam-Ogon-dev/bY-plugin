@@ -1,0 +1,21 @@
+{
+  "name": "BenefittY",
+  "description": "Получай кэшбэк от покупок в интернет-магазинах!",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["storage", "idle"],
+  "browser_action": {
+    "default_title": "BenefittY",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["scripts/api/Tokens.js", "scripts/api/OrganizationAPI.js" ,"scripts/api/UserAPI.js", "scripts/common.js", "scripts/consts.js", "scripts/vars.js", "scripts/background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js": [ "scripts/contentScript.js" ],
+      "css": ["styles/general.css", "styles/modal.css"]
+    }
+  ]
+}

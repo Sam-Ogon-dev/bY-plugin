@@ -1,0 +1,120 @@
+.popup {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 150px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #090e0e;
+    padding: 10px;
+}
+
+.logo-area__logo {
+    width: 30px;
+    height: 30px;
+}
+.logo-area__name {
+    font-size: 22px;
+    color: white;
+}
+
+.work-area {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person__bg-status {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.person__bg-status_start {
+    background: linear-gradient(90deg, #1FD0C4 0%, #1EABC4 100%);
+}
+
+.person__bg-status_silver {
+    background: linear-gradient(270deg, #5B5B5B 0%, #CECECE 100%);
+}
+
+.person__bg-status_gold {
+    background: linear-gradient(122.17deg, rgb(255, 135, 0) 20.12%, rgb(255, 214, 0) 83.16%);
+}
+
+.person__bg-status_premium {
+    background: linear-gradient(90deg, rgb(0, 240, 240) 0%, rgb(250, 0, 255) 66.49%);
+}
+
+.person__info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.company {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.company__name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.benefitty-sections {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefitty-sections__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.29);
+    border-radius: 12px;
+}
+
+.benefitty-sections__section__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    text-align: center;
+    /*margin-right: 20px;*/
+}
+
+.benefitty-sections__section__name {
+    display: flex;
+    max-width: 30%;
+}

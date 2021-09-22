@@ -1,0 +1,83 @@
+@keyframes loader-anim {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.benefitty-btn-bY {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(270deg, #18a7c5, #18d7c5);
+    box-shadow: none;
+    outline: none;
+    color: white;
+    padding: 0 15px;
+    margin: 0;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.orange-btn-bY {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(270deg, #ff5524 0%, #ff7a00 100%);
+    box-shadow: none;
+    outline: none;
+    color: white;
+    padding: 0 15px;
+    margin: 0;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.benefitty-input-bY {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    color: #1d1d1d;
+    margin: 0;
+    outline: none;
+}
+
+.loader {
+    animation-name: loader-anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width: 15px;
+    height: 15px;
+}
+
+.text-error {
+    color: red;
+    font-size: 12px;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    outline: none;
+    border: none;
+    background: #9d9d9d;
+}
+
+.hide {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
